@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/listview_item_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="3dp"
+        android:textSize="14sp"
+        android:textColor="#2a2a2a"/>
+
+    <com.example.yinghui.photoassistant.NoScrollGridView
+        android:id="@+id/listview_item_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dip"
+        android:horizontalSpacing="1dip"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:numColumns="4">
+
+    </com.example.yinghui.photoassistant.NoScrollGridView>
+
+
+
+</LinearLayout>

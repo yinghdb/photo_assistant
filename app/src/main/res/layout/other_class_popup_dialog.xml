@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/background_floating_material_dark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="测试1"
+            android:textColor="#ffffff"
+            android:textSize="15dip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="测试2"
+            android:textColor="#ffffff"
+            android:textSize="15dip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/test3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="测试3"
+            android:textColor="#ffffff"
+            android:textSize="15dip"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

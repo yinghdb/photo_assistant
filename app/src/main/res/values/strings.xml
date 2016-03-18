@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">相机助手</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_taking_photo">拍照</string>
+    <string name="title_activity_photoing">照片管理</string>
+    <string name="title_classify">新建分类</string>
+    <string name="button_upload">上传</string>
+    <string name="text_size">18dp</string>
+    <string name="button_delete">删除图片</string>
+    <string name="button_delete_class">删除分类</string>
+</resources>
